@@ -33,3 +33,34 @@ The repository contains the following folders:
    ```bash
    git clone https://github.com/SajeelHussain/Password-Strength-Predictor.git
    cd Password-Strength-Predictor
+
+## Usage
+1.Training the Model:
+
+Add your dataset to the Data folder if using custom data.
+Run the training script from the Model directory:
+bash
+Copy code
+python Model/Password_Strength_Predictor.py
+Predicting Password Strength:
+
+To test the strength of a password, use the prediction script in the Model directory:
+bash
+Copy code
+python Model/Password_Strength_Predictor.py --password "YourPasswordHere"
+Evaluation:
+
+The model can be evaluated with test data from the Data folder. Modify the data files as necessary for customized evaluation.
+Technologies Used
+Python
+Scikit-learn - machine learning algorithms
+Pandas - data manipulation
+NumPy - numerical operations
+Contributing
+Contributions are welcome! Follow these steps:
+
+Fork the repository.
+Create a new branch: git checkout -b feature-branch-name
+Commit your changes: git commit -m 'Add some feature'
+Push to the branch: git push origin feature-branch-name
+Open a pull request.
