@@ -10,7 +10,6 @@ This project aims to predict the strength of user passwords using machine learni
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 Passwords are often the first line of defense in securing personal and sensitive information. This project provides a predictive model that categorizes passwords into different strength levels, helping users understand and improve their password security.
